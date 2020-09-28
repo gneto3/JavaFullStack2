@@ -19,14 +19,18 @@ public class oneclass {
 		String numerocpf = JOptionPane.showInputDialog("Qual o numero do cpf?");
 		String registrogeral = JOptionPane.showInputDialog("Qual o RG?");
 		
-		String disciplina1 = JOptionPane.showInputDialog("Disciplina1");
-		String nota1 = JOptionPane.showInputDialog("Nota 1");
-		String disciplina2 = JOptionPane.showInputDialog("Disciplina2");
-		String nota2 = JOptionPane.showInputDialog("Nota 2");
-		String disciplina3 = JOptionPane.showInputDialog("Disciplina3");
-		String nota3 = JOptionPane.showInputDialog("Nota 3");
-		String disciplina4 = JOptionPane.showInputDialog("Disciplina4");
-		String nota4 = JOptionPane.showInputDialog("Nota 4");
+		
+		String disciplina1 = JOptionPane.showInputDialog("Disciplina1?");
+		String nota1 = JOptionPane.showInputDialog("Nota 1?");
+		
+		String disciplina2 = JOptionPane.showInputDialog("Disciplina2?");
+		String nota2 = JOptionPane.showInputDialog("Nota 2?");
+		
+		String disciplina3 = JOptionPane.showInputDialog("Disciplina3?");
+		String nota3 = JOptionPane.showInputDialog("Nota 3?");
+		
+		String disciplina4 = JOptionPane.showInputDialog("Disciplina4?");
+		String nota4 = JOptionPane.showInputDialog("Nota 4?");
 		
 		
 		/*new Aluno() é uma instancia (Criação de objeto)*/
@@ -47,10 +51,13 @@ public class oneclass {
 		
 		aluno1.setDisciplina1("disciplina1");
 		aluno1.setNota1(Double.parseDouble(nota1));
+		
 		aluno1.setDisciplina2("disciplina2");
 		aluno1.setNota2(Double.parseDouble(nota2));
+		
 		aluno1.setDisciplina3("disciplina3");
 		aluno1.setNota3(Double.parseDouble(nota3));
+		
 		aluno1.setDisciplina4("disciplina4");
 		aluno1.setNota4(Double.parseDouble(nota4));
 		
