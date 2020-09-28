@@ -8,7 +8,7 @@ public class oneclass {
 	/*Main é um método auto executável em Java*/
 	public static void main(String[] args) {
 		
-		String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
+	/*	String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
 		String idade = JOptionPane.showInputDialog("Qual a idade?");
 		String datamatricula = JOptionPane.showInputDialog("Qual a matricula?");
 		String seriematriculado = JOptionPane.showInputDialog("Qual Serie?");
@@ -22,12 +22,12 @@ public class oneclass {
 		String nota1 = JOptionPane.showInputDialog("Nota 1");
 		String nota2 = JOptionPane.showInputDialog("Nota 2");
 		String nota3 = JOptionPane.showInputDialog("Nota 3");
-		String nota4 = JOptionPane.showInputDialog("Nota 4");
+		String nota4 = JOptionPane.showInputDialog("Nota 4"); */
 		
 		/*new Aluno() é uma instancia (Criação de objeto)*/
 		/*aluno1 é uma referencia para o objeto Aluno*/
         
-		Aluno aluno1 = new Aluno();
+		/*Aluno aluno1 = new Aluno();
 		
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade));
@@ -43,7 +43,7 @@ public class oneclass {
 		aluno1.setNota1(Double.parseDouble(nota1));
 		aluno1.setNota2(Double.parseDouble(nota2));
 		aluno1.setNota3(Double.parseDouble(nota3));
-		aluno1.setNota4(Double.parseDouble(nota4));
+		aluno1.setNota4(Double.parseDouble(nota4));*/
 		
 		/*System.out.println("O nome do aluno é: " + aluno1.getNome());
 		System.out.println("Idade: " + aluno1.getIdade());
@@ -72,11 +72,25 @@ public class oneclass {
 		Aluno aluno6 = new Aluno("João", 26); */
 	
 		
-		System.out.println(aluno1.toString()); /* Descrição do objeto na memória */
-		System.out.println("Média das notas: " + aluno1.getMediaNota());
+		/*System.out.println(aluno1.toString()); /* Descrição do objeto na memória */
+		/*System.out.println("Média das notas: " + aluno1.getMediaNota());
 		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
-		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
+		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());*/
 		
+		/* EQUALS E HASHCODE (Diferenciar e comparar objetos)*/
+		Aluno aluno1 = new Aluno();
+		aluno1.setNome("Gabriel");
+		aluno1.setNumeroCpf("123");
+		
+		Aluno aluno2 = new Aluno();
+		aluno2.setNome("Gabriel Neto");
+		aluno2.setNumeroCpf("1234");
+		
+		if(aluno1.equals(aluno2)) {
+			System.out.println("Alunos são iguais.");
+		}else {
+			System.out.println("Alunos NÃO são iguais.");
+		}
 		
 	}
 }
