@@ -1,6 +1,6 @@
 package cursojava.executavel;
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 import cursojava.classes.Aluno;
 
