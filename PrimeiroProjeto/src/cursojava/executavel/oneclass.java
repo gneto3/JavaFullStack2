@@ -8,7 +8,7 @@ public class oneclass {
 	/*Main é um método auto executável em Java*/
 	public static void main(String[] args) {
 		
-		String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
+	/*	String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
 		String idade = JOptionPane.showInputDialog("Qual a idade?");
 		String datamatricula = JOptionPane.showInputDialog("Qual a matricula?");
 		String seriematriculado = JOptionPane.showInputDialog("Qual Serie?");
@@ -22,11 +22,11 @@ public class oneclass {
 		String nota1 = JOptionPane.showInputDialog("Nota 1");
 		String nota2 = JOptionPane.showInputDialog("Nota 2");
 		String nota3 = JOptionPane.showInputDialog("Nota 3");
-		String nota4 = JOptionPane.showInputDialog("Nota 4");
+		String nota4 = JOptionPane.showInputDialog("Nota 4"); */
 		
 		/*new Aluno() é uma instancia (Criação de objeto)*/
 		/*aluno1 é uma referencia para o objeto Aluno*/
-		Aluno aluno1 = new Aluno();
+    /*  Aluno aluno1 = new Aluno();
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade));
 		aluno1.setDataMatricula(datamatricula);
@@ -54,24 +54,29 @@ public class oneclass {
 		System.out.println("CPF: " + aluno1.getNumeroCpf());
 		System.out.println("RG: " + aluno1.getRegistroGeral());
 		
-		//System.out.println("Nota1: " + aluno1.getNota1());
-		//System.out.println("Nota2: " + aluno1.getNota2());
-		//System.out.println("Nota3: " + aluno1.getNota3());
-		//System.out.println("Nota4: " + aluno1.getNota4());
+		System.out.println("Nota1: " + aluno1.getNota1());
+		System.out.println("Nota2: " + aluno1.getNota2());
+		System.out.println("Nota3: " + aluno1.getNota3());
+		System.out.println("Nota4: " + aluno1.getNota4());
 		
 		System.out.println("Média das notas: " + aluno1.getMediaNota());
 		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
 		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
 		
-		//Aluno aluno2 = new Aluno("Teste1");
+		Aluno aluno2 = new Aluno("Teste1");
 	
-        //Aluno aluno3 = new Aluno("Teste2");
+        Aluno aluno3 = new Aluno("Teste2");
+		Aluno aluno4 = new Aluno("Maria");
 		
-		//Aluno aluno4 = new Aluno("Maria");
+		Aluno aluno5 = new Aluno("José", 50);
 		
-		//Aluno aluno5 = new Aluno("José", 50);
+		Aluno aluno6 = new Aluno("João", 26); */
+	
+		Aluno aluno = new Aluno();
+		System.out.println(aluno.toString()); /* Descrição do objeto na memória */
 		
-		//Aluno aluno6 = new Aluno("João", 26);
+		aluno = new Aluno();
+		System.out.println(aluno.toString()); /* Descrição do objeto na memória */
 		
 	}
 }
