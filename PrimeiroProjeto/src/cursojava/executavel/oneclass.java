@@ -20,7 +20,8 @@ public class oneclass {
 		String registrogeral = JOptionPane.showInputDialog("Qual o RG?");
 		
 		
-		String disciplina1 = JOptionPane.showInputDialog("Disciplina1?");
+		String d
+		= JOptionPane.showInputDialog("Disciplina1?");
 		String nota1 = JOptionPane.showInputDialog("Nota 1?");
 		
 		String disciplina2 = JOptionPane.showInputDialog("Disciplina2?");
