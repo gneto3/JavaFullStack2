@@ -1,6 +1,6 @@
 package cursojava.executavel;
 
-//import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
 
 import cursojava.classes.Aluno;
 
@@ -8,7 +8,7 @@ public class oneclass {
 	/*Main é um método auto executável em Java*/
 	public static void main(String[] args) {
 		
-	/*	String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
+		String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
 		String idade = JOptionPane.showInputDialog("Qual a idade?");
 		String datamatricula = JOptionPane.showInputDialog("Qual a matricula?");
 		String seriematriculado = JOptionPane.showInputDialog("Qual Serie?");
@@ -22,11 +22,13 @@ public class oneclass {
 		String nota1 = JOptionPane.showInputDialog("Nota 1");
 		String nota2 = JOptionPane.showInputDialog("Nota 2");
 		String nota3 = JOptionPane.showInputDialog("Nota 3");
-		String nota4 = JOptionPane.showInputDialog("Nota 4"); */
+		String nota4 = JOptionPane.showInputDialog("Nota 4");
 		
 		/*new Aluno() é uma instancia (Criação de objeto)*/
 		/*aluno1 é uma referencia para o objeto Aluno*/
-    /*  Aluno aluno1 = new Aluno();
+        
+		Aluno aluno1 = new Aluno();
+		
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade));
 		aluno1.setDataMatricula(datamatricula);
@@ -43,7 +45,7 @@ public class oneclass {
 		aluno1.setNota3(Double.parseDouble(nota3));
 		aluno1.setNota4(Double.parseDouble(nota4));
 		
-		System.out.println("O nome do aluno é: " + aluno1.getNome());
+		/*System.out.println("O nome do aluno é: " + aluno1.getNome());
 		System.out.println("Idade: " + aluno1.getIdade());
 		System.out.println("Data Matricula: " + aluno1.getDataMatricula());
 		System.out.println("Serie: " + aluno1.getSerieMatriculado());
@@ -57,13 +59,10 @@ public class oneclass {
 		System.out.println("Nota1: " + aluno1.getNota1());
 		System.out.println("Nota2: " + aluno1.getNota2());
 		System.out.println("Nota3: " + aluno1.getNota3());
-		System.out.println("Nota4: " + aluno1.getNota4());
+		System.out.println("Nota4: " + aluno1.getNota4());*/
 		
-		System.out.println("Média das notas: " + aluno1.getMediaNota());
-		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
-		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
 		
-		Aluno aluno2 = new Aluno("Teste1");
+	/*	Aluno aluno2 = new Aluno("Teste1");
 	
         Aluno aluno3 = new Aluno("Teste2");
 		Aluno aluno4 = new Aluno("Maria");
@@ -72,11 +71,12 @@ public class oneclass {
 		
 		Aluno aluno6 = new Aluno("João", 26); */
 	
-		Aluno aluno = new Aluno();
-		System.out.println(aluno.toString()); /* Descrição do objeto na memória */
 		
-		aluno = new Aluno();
-		System.out.println(aluno.toString()); /* Descrição do objeto na memória */
+		System.out.println(aluno1.toString()); /* Descrição do objeto na memória */
+		System.out.println("Média das notas: " + aluno1.getMediaNota());
+		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
+		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
+		
 		
 	}
 }
