@@ -15,7 +15,7 @@ public class oneclass {
 		String datanascimento = JOptionPane.showInputDialog("Qual a data de nascimento?");
 		String nomeescola = JOptionPane.showInputDialog("Qual o nome da escola?");
 		String nomepai = JOptionPane.showInputDialog("Qual o nome do pai?");
-		String nomemae = JOptionPane.showInputDialog("Qual o nome da m√£e?");
+		String nomemae = JOptionPane.showInputDialog("Qual o nome da m„e?");
 		String numerocpf = JOptionPane.showInputDialog("Qual o numero do cpf?");
 		String registrogeral = JOptionPane.showInputDialog("Qual o RG?");
 		
@@ -49,17 +49,17 @@ public class oneclass {
 		aluno1.setNumeroCpf(numerocpf);
 		aluno1.setRegistroGeral(registrogeral);
 		
-		aluno1.setDisciplina1(disciplina1);
-		aluno1.setNota1(Double.parseDouble(nota1));
+		aluno1.getDisciplina() .setDisciplina1(disciplina1);
+		aluno1.getDisciplina() .setNota1(Double.parseDouble(nota1));
 		
-		aluno1.setDisciplina2(disciplina2);
-		aluno1.setNota2(Double.parseDouble(nota2));
+		aluno1.getDisciplina() .setDisciplina2(disciplina2);
+		aluno1.getDisciplina() .setNota2(Double.parseDouble(nota2));
 		
-		aluno1.setDisciplina3(disciplina3);
-		aluno1.setNota3(Double.parseDouble(nota3));
+		aluno1.getDisciplina() .setDisciplina3(disciplina3);
+		aluno1.getDisciplina() .setNota3(Double.parseDouble(nota3));
 		
-		aluno1.setDisciplina4(disciplina4);
-		aluno1.setNota4(Double.parseDouble(nota4));
+		aluno1.getDisciplina() .setDisciplina4(disciplina4);
+		aluno1.getDisciplina() .setNota4(Double.parseDouble(nota4));
 		
 		
 		/*System.out.println("O nome do aluno È: " + aluno1.getNome());
