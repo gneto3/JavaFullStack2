@@ -2,7 +2,7 @@ package cursojava.classes;
 
 public class Aluno {
 
-	/*Esses s√£o os atributos do Aluno*/
+	/*Esses s„o os atributos do Aluno*/
 	
 	private String nome;
 	private int idade;
@@ -26,7 +26,7 @@ public class Aluno {
 	
 	
 	
-	public Aluno() { /*Cria os dados na mem√≥ria, sendo padr√£o do java*/
+	public Aluno() { /*Cria os dados na memÛria, sendo padr„o do java*/
 		
 	}
 	
@@ -47,8 +47,8 @@ public class Aluno {
 	}
 	
 	/*Veremos os metodos SETTERS e GETTERS do objeto*/
-	/*SET √© para adicionar ou receber dados para os atributos*/
-	/*GET √© para resgatar ou obter o valor do atributo*/ 
+	/*SET  para adicionar ou receber dados para os atributos*/
+	/*GET para resgatar ou obter o valor do atributo*/ 
 	
 	/*Recebe dados*/
 	public void setNome (String nome) {

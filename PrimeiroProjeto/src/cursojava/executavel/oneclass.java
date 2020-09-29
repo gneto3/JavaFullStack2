@@ -49,16 +49,16 @@ public class oneclass {
 		aluno1.setNumeroCpf(numerocpf);
 		aluno1.setRegistroGeral(registrogeral);
 		
-		aluno1.setDisciplina1("disciplina1");
+		aluno1.setDisciplina1(disciplina1);
 		aluno1.setNota1(Double.parseDouble(nota1));
 		
-		aluno1.setDisciplina2("disciplina2");
+		aluno1.setDisciplina2(disciplina2);
 		aluno1.setNota2(Double.parseDouble(nota2));
 		
-		aluno1.setDisciplina3("disciplina3");
+		aluno1.setDisciplina3(disciplina3);
 		aluno1.setNota3(Double.parseDouble(nota3));
 		
-		aluno1.setDisciplina4("disciplina4");
+		aluno1.setDisciplina4(disciplina4);
 		aluno1.setNota4(Double.parseDouble(nota4));
 		
 		
