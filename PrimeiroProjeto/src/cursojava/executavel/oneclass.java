@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 import cursojava.classes.Aluno;
 
 public class oneclass {
-	/*Main √© um m√©todo auto execut√°vel em Java*/
+	/*Main È um mÈtodo auto execut·vel em Java*/
 	public static void main(String[] args) {
 		
 		String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
@@ -33,8 +33,8 @@ public class oneclass {
 		String nota4 = JOptionPane.showInputDialog("Nota 4?");
 		
 		
-		/*new Aluno() √© uma instancia (Cria√ß√£o de objeto)*/
-		/*aluno1 √© uma referencia para o objeto Aluno*/
+		/*new Aluno() È uma instancia (CriaÁ„o de objeto)*/
+		/*aluno1 È uma referencia para o objeto Aluno*/
         
 		Aluno aluno1 = new Aluno();
 		
@@ -62,14 +62,14 @@ public class oneclass {
 		aluno1.setNota4(Double.parseDouble(nota4));
 		
 		
-		/*System.out.println("O nome do aluno √©: " + aluno1.getNome());
+		/*System.out.println("O nome do aluno È: " + aluno1.getNome());
 		System.out.println("Idade: " + aluno1.getIdade());
 		System.out.println("Data Matricula: " + aluno1.getDataMatricula());
 		System.out.println("Serie: " + aluno1.getSerieMatriculado());
 		System.out.println("Data de Nascimento: " + aluno1.getDataNascimento());
 		System.out.println("Escola: " + aluno1.getNomeEscola());
 		System.out.println("Nome do pai: " + aluno1.getNomePai());
-		System.out.println("Nome da M√£e: "+ aluno1.getNomeMae());
+		System.out.println("Nome da M„e: "+ aluno1.getNomeMae());
 		System.out.println("CPF: " + aluno1.getNumeroCpf());
 		System.out.println("RG: " + aluno1.getRegistroGeral());
 		
@@ -84,13 +84,13 @@ public class oneclass {
         Aluno aluno3 = new Aluno("Teste2");
 		Aluno aluno4 = new Aluno("Maria");
 		
-		Aluno aluno5 = new Aluno("Jos√©", 50);
+		Aluno aluno5 = new Aluno("JosÈ", 50);
 		
-		Aluno aluno6 = new Aluno("Jo√£o", 26); */
+		Aluno aluno6 = new Aluno("Jo„o", 26); */
 	
 		
-		System.out.println(aluno1.toString()); /* Descri√ß√£o do objeto na mem√≥ria */
-		System.out.println("M√©dia das notas: " + aluno1.getMediaNota());
+		System.out.println(aluno1.toString()); /* DescriÁ„o do objeto na memÛria */
+		System.out.println("MÈdia das notas: " + aluno1.getMediaNota());
 		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
 		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
 		
@@ -104,9 +104,9 @@ public class oneclass {
 		aluno2.setNumeroCpf("1234");
 		
 		if(aluno1.equals(aluno2)) {
-			System.out.println("Alunos s√£o iguais.");
+			System.out.println("Alunos s„o iguais.");
 		}else {
-			System.out.println("Alunos N√ÉO s√£o iguais.");
+			System.out.println("Alunos n„o s„o iguais.");
 		}*/
 		
 	}

@@ -47,8 +47,8 @@ public class Aluno {
 	}
 	
 	/*Veremos os metodos SETTERS e GETTERS do objeto*/
-	/*SET  para adicionar ou receber dados para os atributos*/
-	/*GET para resgatar ou obter o valor do atributo*/ 
+	/*SET é para adicionar ou receber dados para os atributos*/
+	/*GET é para resgatar ou obter o valor do atributo*/ 
 	
 	/*Recebe dados*/
 	public void setNome (String nome) {
@@ -205,7 +205,7 @@ public class Aluno {
 
 	public String getAlunoAprovado2() {
 		double media = this.getMediaNota();
-		if (media > 99){ /* hauhauhauhauhauahauh, sÃ³ passa com cem abestado */
+		if (media > 99){ /* hauhauhauhauhauahauh, só passa com "cem" abestado. */
 			return "Aprovado";
 		}else{
 			return "Reprovado";
