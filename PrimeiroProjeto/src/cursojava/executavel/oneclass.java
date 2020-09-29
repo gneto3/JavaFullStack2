@@ -69,7 +69,7 @@ public class oneclass {
 		System.out.println("Data de Nascimento: " + aluno1.getDataNascimento());
 		System.out.println("Escola: " + aluno1.getNomeEscola());
 		System.out.println("Nome do pai: " + aluno1.getNomePai());
-		System.out.println("Nome da Mãe: "+ aluno1.getNomeMae());
+		System.out.println("Nome da MÃ£e: "+ aluno1.getNomeMae());
 		System.out.println("CPF: " + aluno1.getNumeroCpf());
 		System.out.println("RG: " + aluno1.getRegistroGeral());
 		
@@ -95,8 +95,8 @@ public class oneclass {
 		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
 		
 		/* EQUALS E HASHCODE (Diferenciar e comparar objetos)*/
-	//	Aluno aluno1 = new Aluno();
-	/*	aluno1.setNome("Gabriel");
+	/*	Aluno aluno1 = new Aluno();
+		aluno1.setNome("Gabriel");
 		aluno1.setNumeroCpf("123");
 		
 		Aluno aluno2 = new Aluno();
