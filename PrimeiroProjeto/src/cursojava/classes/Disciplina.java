@@ -1,5 +1,7 @@
 package cursojava.classes;
 
+/* Essa classe servirá para instanciar todos objetos do tipo nota e disciplina. */
+
 public class Disciplina {
 
 	private String disciplina;
