@@ -20,19 +20,6 @@ public class oneclass {
 		String registrogeral = JOptionPane.showInputDialog("Qual o RG?");
 		
 		
-		String disciplina1 = JOptionPane.showInputDialog("Disciplina1?");
-		String nota1 = JOptionPane.showInputDialog("Nota 1?");
-		
-		String disciplina2 = JOptionPane.showInputDialog("Disciplina2?");
-		String nota2 = JOptionPane.showInputDialog("Nota 2?");
-		
-		String disciplina3 = JOptionPane.showInputDialog("Disciplina3?");
-		String nota3 = JOptionPane.showInputDialog("Nota 3?");
-		
-		String disciplina4 = JOptionPane.showInputDialog("Disciplina4?");
-		String nota4 = JOptionPane.showInputDialog("Nota 4?");
-		
-		
 		/*new Aluno() é uma instancia (Criação de objeto)*/
 		/*aluno1 é uma referencia para o objeto Aluno*/
         
@@ -49,65 +36,14 @@ public class oneclass {
 		aluno1.setNumeroCpf(numerocpf);
 		aluno1.setRegistroGeral(registrogeral);
 		
-		aluno1.getDisciplina() .setDisciplina1(disciplina1);
-		aluno1.getDisciplina() .setNota1(Double.parseDouble(nota1));
-		
-		aluno1.getDisciplina() .setDisciplina2(disciplina2);
-		aluno1.getDisciplina() .setNota2(Double.parseDouble(nota2));
-		
-		aluno1.getDisciplina() .setDisciplina3(disciplina3);
-		aluno1.getDisciplina() .setNota3(Double.parseDouble(nota3));
-		
-		aluno1.getDisciplina() .setDisciplina4(disciplina4);
-		aluno1.getDisciplina() .setNota4(Double.parseDouble(nota4));
-		
-		
-		/*System.out.println("O nome do aluno é: " + aluno1.getNome());
-		System.out.println("Idade: " + aluno1.getIdade());
-		System.out.println("Data Matricula: " + aluno1.getDataMatricula());
-		System.out.println("Serie: " + aluno1.getSerieMatriculado());
-		System.out.println("Data de Nascimento: " + aluno1.getDataNascimento());
-		System.out.println("Escola: " + aluno1.getNomeEscola());
-		System.out.println("Nome do pai: " + aluno1.getNomePai());
-		System.out.println("Nome da MÃ£e: "+ aluno1.getNomeMae());
-		System.out.println("CPF: " + aluno1.getNumeroCpf());
-		System.out.println("RG: " + aluno1.getRegistroGeral());
-		
-		System.out.println("Nota1: " + aluno1.getNota1());
-		System.out.println("Nota2: " + aluno1.getNota2());
-		System.out.println("Nota3: " + aluno1.getNota3());
-		System.out.println("Nota4: " + aluno1.getNota4());*/
-		
-		
-	/*	Aluno aluno2 = new Aluno("Teste1");
-	
-        Aluno aluno3 = new Aluno("Teste2");
-		Aluno aluno4 = new Aluno("Maria");
-		
-		Aluno aluno5 = new Aluno("José", 50);
-		
-		Aluno aluno6 = new Aluno("João", 26); */
-	
+			
 		
 		System.out.println(aluno1.toString()); /* Descrição do objeto na memória */
 		System.out.println("Média das notas: " + aluno1.getMediaNota());
 		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
 		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());
 		
-		/* EQUALS E HASHCODE (Diferenciar e comparar objetos)*/
-	/*	Aluno aluno1 = new Aluno();
-		aluno1.setNome("Gabriel");
-		aluno1.setNumeroCpf("123");
 		
-		Aluno aluno2 = new Aluno();
-		aluno2.setNome("Gabriel Neto");
-		aluno2.setNumeroCpf("1234");
-		
-		if(aluno1.equals(aluno2)) {
-			System.out.println("Alunos são iguais.");
-		}else {
-			System.out.println("Alunos não são iguais.");
-		}*/
 		
 	}
 }
