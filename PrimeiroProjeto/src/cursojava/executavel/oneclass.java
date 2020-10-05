@@ -3,6 +3,7 @@ package cursojava.executavel;
 import javax.swing.JOptionPane;
 
 import cursojava.classes.Aluno;
+import cursojava.classes.Disciplina;
 
 public class oneclass {
 	/*Main é um método auto executável em Java*/
@@ -18,6 +19,18 @@ public class oneclass {
 		String nomemae = JOptionPane.showInputDialog("Qual o nome da mãe?");
 		String numerocpf = JOptionPane.showInputDialog("Qual o numero do cpf?");
 		String registrogeral = JOptionPane.showInputDialog("Qual o RG?");
+		
+		String disciplina1 = JOptionPane.showInputDialog("Disciplina1?");
+		String nota1 = JOptionPane.showInputDialog("Nota 1?");
+		
+		String disciplina2 = JOptionPane.showInputDialog("Disciplina2?");
+		String nota2 = JOptionPane.showInputDialog("Nota 2?");
+		
+		String disciplina3 = JOptionPane.showInputDialog("Disciplina3?");
+		String nota3 = JOptionPane.showInputDialog("Nota 3?");
+		
+		String disciplina4 = JOptionPane.showInputDialog("Disciplina4?");
+		String nota4 = JOptionPane.showInputDialog("Nota 4?");
 		
 		
 		/*new Aluno() é uma instancia (Criação de objeto)*/
@@ -36,7 +49,26 @@ public class oneclass {
 		aluno1.setNumeroCpf(numerocpf);
 		aluno1.setRegistroGeral(registrogeral);
 		
-			
+		Disciplina disciplina1 = new Disciplina();
+		
+		disciplina1.setDisciplina("Matemática");
+		disciplina1.setNota(90);
+		aluno1.getDisciplinas() .add(disciplina1);
+		
+		Disciplina disciplina2 = new Disciplina();
+		disciplina2.setDisciplina("Português");
+		disciplina2.setNota(89);
+		aluno1.getDisciplinas() .add(disciplina2);
+		
+		Disciplina disciplina3 = new Disciplina();		
+		disciplina3.setDisciplina("Física");
+		disciplina3.setNota(92);
+		aluno1.getDisciplinas() .add(disciplina3);
+		
+		Disciplina disciplina4 = new Disciplina();
+		disciplina4.setDisciplina("Quimíca");
+		disciplina4.setNota(86);
+		aluno1.getAlunoAprovado() .add(disciplina4);
 		
 		System.out.println(aluno1.toString()); /* Descrição do objeto na memória */
 		System.out.println("Média das notas: " + aluno1.getMediaNota());
