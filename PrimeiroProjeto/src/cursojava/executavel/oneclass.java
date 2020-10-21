@@ -44,10 +44,11 @@ public class oneclass {
 					disciplina.setDisciplina(nomeDisciplina);
 					disciplina.setNota(Double.valueOf(notaDisciplina));
 					
+					aluno1.getDisciplinas().add(disciplina);
 		}
 		
 		
-		System.out.println(aluno1.toString()); /* Descrição do objeto na memória */
+		System.out.println(aluno1); /* Descrição do objeto na memória */
 		System.out.println("Média das notas: " + aluno1.getMediaNota());
 		System.out.println("Resultado: " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
 		System.out.println("Resultado 2: " + aluno1.getAlunoAprovado2());

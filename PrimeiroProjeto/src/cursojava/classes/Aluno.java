@@ -125,13 +125,13 @@ public class Aluno {
 		this.serieMatriculado = serieMatriculado;
 	}
 
-	/* Metodo de cauculo de média */
+	/* Metodo de calculo de média */
 	public double getMediaNota() {
 		
 		double somaNotas = 0.0;
 		
 		for (Disciplina disciplina : disciplinas) {
-			somaNotas += disciplina.getNota();
+			somaNotas += disciplina.getNota();		
 					
 		}
 
