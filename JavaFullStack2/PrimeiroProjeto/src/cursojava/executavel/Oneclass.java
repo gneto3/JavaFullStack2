@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 import cursojava.classes.Aluno;
 import cursojava.classes.Disciplina;
 
-public class oneclass {
+public class Oneclass {
 	/*Main é um método auto executável em Java*/
 	public static void main(String[] args) {
 
