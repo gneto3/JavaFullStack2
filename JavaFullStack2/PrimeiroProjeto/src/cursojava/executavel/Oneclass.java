@@ -9,7 +9,7 @@ public class Oneclass {
 	public static void main(String[] args) {
 
 		String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
-		String idade = JOptionPane.showInputDialog("Qual a idade?");
+	/*	String idade = JOptionPane.showInputDialog("Qual a idade?");
 		String datamatricula = JOptionPane.showInputDialog("Qual a matricula?");
 		String seriematriculado = JOptionPane.showInputDialog("Qual Serie?");
 		String datanascimento = JOptionPane.showInputDialog("Qual a data de nascimento?");
@@ -17,7 +17,7 @@ public class Oneclass {
 		String nomepai = JOptionPane.showInputDialog("Qual o nome do pai?");
 		String nomemae = JOptionPane.showInputDialog("Qual o nome da mãe?");
 		String numerocpf = JOptionPane.showInputDialog("Qual o numero do cpf?");
-		String registrogeral = JOptionPane.showInputDialog("Qual o RG?");
+		String registrogeral = JOptionPane.showInputDialog("Qual o RG?"); */
 
 
 		/*new Aluno() é uma instancia (Criação de objeto)*/
@@ -26,7 +26,7 @@ public class Oneclass {
 		Aluno aluno1 = new Aluno();
 
 		aluno1.setNome(nome);
-		aluno1.setIdade(Integer.valueOf(idade));
+	/*	aluno1.setIdade(Integer.valueOf(idade));
 		aluno1.setDataMatricula(datamatricula);
 		aluno1.setSerieMatriculado(seriematriculado);
 		aluno1.setDataNascimento(datanascimento);
@@ -34,7 +34,7 @@ public class Oneclass {
 		aluno1.setNomePai(nomepai);
 		aluno1.setNomeMae(nomemae);
 		aluno1.setNumeroCpf(numerocpf);
-		aluno1.setRegistroGeral(registrogeral);
+		aluno1.setRegistroGeral(registrogeral);*/
 
 		for (int pos = 1; pos <=4; pos++) {
 			String nomeDisciplina = JOptionPane.showInputDialog("Nome da Disciplina "+pos+" ?");
@@ -47,6 +47,13 @@ public class Oneclass {
 					aluno1.getDisciplinas().add(disciplina);
 		}
 
+		int escolha = JOptionPane.showConfirmDialog(null, "Deseja remover alguma disciplina");
+		
+		if (escolha == 0) {
+			String disciplinaRemover = JOptionPane.showInputDialog("Qual disciplina deseja remover? \n 1, 2, 3, 4: ");
+			aluno1.getDisciplinas().remove(Integer.valueOf(disciplinaRemover).intValue() - 1);
+		}
+		
 
 		System.out.println(aluno1); /* Descrição do objeto na memória */
 		System.out.println("Média das notas: " + aluno1.getMediaNota());
@@ -55,5 +62,6 @@ public class Oneclass {
 
 
 
+		
 	}
 }

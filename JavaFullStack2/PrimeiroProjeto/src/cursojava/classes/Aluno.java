@@ -151,9 +151,13 @@ public class Aluno {
 
 	public String getAlunoAprovado2() {
 		double media = this.getMediaNota();
-		if (media > 99){ /* hauhauhauhauhauahauh, só passa com "cem" abestado. */
-			return "Aprovado";
-		}else{
+		if (media >= 50){
+			if(media >= 70) {
+				return "Aprovado";
+			}else {
+			return "Em recuperação";
+			}
+			}else {
 			return "Reprovado";
 		}
 		
